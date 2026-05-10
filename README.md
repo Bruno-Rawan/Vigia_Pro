@@ -24,8 +24,8 @@ Bot de monitorização de servidores e serviços web com alertas em tempo real p
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/vigia-pro.git
-cd vigia-pro
+git clone https://github.com/seu-usuario/vigia_pro.git
+cd vigia_pro
 ```
 
 ### 2. Instale as dependências
@@ -49,7 +49,7 @@ TELEGRAM_CHAT_ID=seu_chat_id_aqui
 ### 4. Execute
 
 ```bash
-python vigia_infra.py
+python vigia_pro.py
 ```
 
 O bot enviará uma mensagem de confirmação no Telegram ao iniciar.
@@ -77,8 +77,8 @@ O bot enviará uma mensagem de confirmação no Telegram ao iniciar.
 ## 📁 Estrutura do projeto
 
 ```
-vigia-pro/
-├── vigia_infra.py      # Código principal
+vigia_pro/
+├── vigia_pro.py      # Código principal
 ├── servidores.json     # Base de dados dos servidores (gerado automaticamente)
 ├── last_update_id.txt  # Controle de updates do Telegram (gerado automaticamente)
 ├── vigia.log           # Log de eventos (gerado automaticamente)
